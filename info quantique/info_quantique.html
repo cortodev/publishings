@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" charset="utf-8" src="js/raphael/raphael.min.js">
+    </script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery/dist/jquery.js">
+    </script>
+    <script type="text/javascript" charset="utf-8" src="js/raphael/raphael_plus.js">
+    </script>
+    <script type="text/javascript" charset="utf-8" src="js/info_quantique.js">
+    </script>
+    <link rel="stylesheet" href="/css/info_quantique.css" title="" type="text/css" media="screen"/>
+    <title>Informatique quantique</title>
+  </head>
+  <body>
+    <a href="#open" id="open_menu" class="fixed-right">+</a>
+    <nav class="fixed-right">
+      <a id="close_menu" href="#close">x</a>
+      <ol>
+        <li>
+          <a href="#presentation">Presentation de l'informatique quantique</a>
+          <ol>
+            <li><a href="#principes">Principes</a></li>
+            <li><a href="#historique">Historique</a></li>
+          </ol>
+        </li>
+
+        <li>
+          <a href="#etat">Etat actuel</a>
+          <ol>
+            <li><a href="#cartographie">Cartographie des labos dans le monde</a></li>
+            <li><a href="#entreprises">Entreprises</a></li>
+          </ol>
+        </li>
+
+        <li>
+          <a href="#organisations">Dans les organisations</a>
+          <ol>
+            <li><a href="#specialisation">Sp&eacute;cialisation du metier</a></li>
+            <li><a href="#surete">Une information plus sûre</a></li>
+            <li><a href="#accessibilite">Une information plus accessible</a></li>
+            <li><a href="#fiabilite">Une information plus fiable</a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+
+    <section id="presentation">
+      <h2>Presentation de l'informatique quantique</h2>
+      <article id="principes">
+        <h3>Principes</h3>
+        <p>Utiliser la puissance du quantique pour effectuer des calculs complexes (et non plus effectuer des calculs complexes pour comprendre le quantique).</p>
+        <p>Les <em>quantas</em> sont <em>intriqu&eacute;s</em> <span id="intrique"> </span> deux quantas tr&egrave;s &eacute;loign&eacute;s peuvent communiquer à une vitesse supra luminique. L'&eacute;tat de l'un depend des ph&eacute;nom&egrave;nes que subit l'autre.</p>
+        <p>La mesure d'une propri&eacute;t&eacute; en alt&egrave;re une autre. On ne peut pas conna&icirc;tre la vitesse et la position d'une particule. C'est le principe d'<em>incertitude</em> (Heisenberg).</p>
+        <p>Chaque quantum poss&egrave;de une zone de probalit&eacute; pour chacune de ses propri&eacute;t&eacute;s. Ces zones peuvent &ecirc;tre discontinues. On a alors l'impression que le quantum se trouve dans plusieurs &eacute;tats distincts en <em>m&ecirc;me temps</em>. C'est la <em>d&eacute;coh&eacute;rence</em>.</p>
+        <p>L'information &#x27FA; son support. L'informatique quantique ram&egrave;ne l'information au coeur du sujet. C'est une th&eacute;orie de la connaisance du monde.</p>
+        <p>Les resultats ne dependent plus seulement du mat&eacute;riel. La mani&egrave;re d'aborder le <em>qbit</em> (quantum bit) change le resultat. Ex.: l'inversion d'un canal de communication peut permettre aux donn&eacute;es de passer. La porte de <em>Hadamard</em> porte logique quantique dont la puissance de calcul cro&icirc;t avec le nombre de qbits qui la traverse.</p>
+      </article>
+      <article id="historique">
+        <h3>Historique</h3>
+
+        <ul id="frise">
+        </ul>
+      </article>
+    </section>
+
+    <section id="etat">
+      <h2>Etat actuel</h2>
+      <article id="cartographie">
+        <h3>Cartographie des labos dans le monde</h3>
+        <div id="carte">
+        </div>
+        <ul class="legende">
+        </ul>
+      </article>
+      <article id="entreprises">
+        <h3>Entreprises</h3>
+        <p>La principale entreprise est IBM.</p>
+        <p>USA 75 millions de dollars.<span class="dollar" data-nombre="75"> </span></p>
+        <p>8 pour toute l'UE.<span class="dollar" data-nombre="8"> </span></p>
+        <p>Canada 12 millions.<span class="dollar" data-nombre="12"> </span></p>
+        <p>Japon 25 millions.<span class="dollar" data-nombre="25"> </span></p>
+        <p>Australie 6 millions.<span class="dollar" data-nombre="6"> </span></p>
+      </article>
+    </section>
+
+    <section id="organisations">
+      <h2>Dans les organisations</h2>
+      <p>Le th&eacute;orie quantique preserve ou renforce les principaux points de la th&eacute;orie de l'information.</p>
+      <article id="specialisation">
+        <h3>Sp&eacute;cialisation du metier</h3>
+        <p>Les supports sont confondus avec les informations qu'ils contiennent. Les solutions fonctionnelles doivent &ecirc;tre coupl&eacute;es d'une expertise technique.</p>
+        <p>Parall&egrave;lement l'algorithmique gagne en abstraction. Il n'y a plus de similitude entre le d&eacute;roulement du programme et le d&eacute;roulement de la pens&eacute;e du programmeur. Seuls les resultats sont corr&eacute;l&eacute;s.</p>
+      </article>
+      <article id="securite">
+        <h3>Une information plus sûre</h3>
+        <p>L'information port&eacute; sur un qbit avant mesure est incraquable !</p>
+        <p>On code un qbit en le faisant passer par un filtre. Toute lecture alt&eacute;rant l'information, l'information est perdue si on veut la craquer.</p>
+        <p>On ajoute un code de d&eacute;tection en ajoutant des qbits al&eacute;atoires intriqu&eacute;s entre l'emmetteur et le recepteur.</p>
+      </article>
+      <article id="accessibilite">
+        <h3>Une information plus accessible</h3>
+        <p>Les qbits stockant toutes les informations en <em>m&ecirc;me temps</em> les algos de recherche sont plus performants.</p>
+        <p>Les premi&egrave;res exp&eacute;riences montrent des resultats impressionants.</p>
+        <p>Taille critique : ordinateur à base solide de 256-300 qbits.</p>
+        <p>La recherche a permis de produire des fibres qui transmettent jusqu'à 1Tb/s.</p>
+      </article>
+      <article id="fiabilite">
+        <h3>Une information plus fiable</h3>
+        <p>L'intrication et la dur&eacute;e de vie naturellement faible des qbits sont des bases de recherche prometteuses pour les syst&egrave;mes à d&eacute;gradation control&eacute;.</p>
+        <p>L'impossibilit&eacute; de mettre au point un code de correction est les plus grand d&eacute;fi dans ce domaine.</p>
+      </article>
+    </section>
+  </body>
+</html>
